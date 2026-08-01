@@ -1,43 +1,58 @@
-import time
-import random
+"""
+Naphtech IDS
+Main Application
+"""
 
-# Simulated network IPs
-sample_ips = [
-    "192.168.1.2",
-    "192.168.1.5",
-    "10.0.0.8",
-    "172.16.0.3"
-]
+from utils import banner
+from dashboard import display_menu, get_user_choice
 
-# Track activity
-ip_count = {}
 
-print("Mini IDS Started... 🔥")
-print("Monitoring simulated network traffic...\n")
+def start_monitoring():
+    print("\n[INFO] Monitoring engine coming in Mission 007...\n")
 
-while True:
 
-    # Simulate incoming packet
-    source_ip = random.choice(sample_ips)
+def show_dashboard():
+    print("\n[INFO] Live dashboard coming soon...\n")
 
-    if source_ip not in ip_count:
-        ip_count[source_ip] = 1
-    else:
-        ip_count[source_ip] += 1
 
-    print(f"[+] Traffic from {source_ip} | Count: {ip_count[source_ip]}")
+def main():
+    banner()
 
-    # Detection threshold
-    if ip_count[source_ip] >= 5:
+    while True:
+        display_menu()
 
-        alert = f"[ALERT] Suspicious activity detected from {source_ip} at {time.ctime()}"
+        choice = get_user_choice()
 
-        print(alert)
+        if choice == "1":
+            start_monitoring()
 
-        with open("logs/alerts.log", "a") as log:
-            log.write(alert + "\n")
+        elif choice == "2":
+            show_dashboard()
 
-        # Reset count after alert
-        ip_count[source_ip] = 0
+        elif choice == "3":
+            print("\nAlert history coming soon.\n")
 
-    time.sleep(1)
+        elif choice == "4":
+            print("\nAttack statistics coming soon.\n")
+
+        elif choice == "5":
+            print("\nReport generation coming soon.\n")
+
+        elif choice == "6":
+            print("\nSettings coming soon.\n")
+
+        elif choice == "7":
+            print("\nNaphtech IDS")
+            print("Developer: Naphtali Ishaya")
+            print("Company: Naphtech Hub\n")
+
+        elif choice == "8":
+            print("\nThank you for using Naphtech IDS.")
+            break
+
+        else:
+            print("\nInvalid option. Please try again.\n")
+
+
+if __name__ == "__main__":
+    main()
