@@ -1,0 +1,10 @@
+
+{
+    "app_name": "Naphtech IDS",
+    "company": "Naphtech Hub",
+    "developer": "Naphtali Ishaya",
+    "version": "2.0.0",
+    "packet_threshold": 5,
+    "logging": true,
+    "report_format": "html"
+}
