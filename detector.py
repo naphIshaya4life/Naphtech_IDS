@@ -27,7 +27,14 @@ class DetectionEngine:
             "172.16.0.3"
         ]
 
+
+
         self.ip_count = {}
+
+        self.total_packets = 0
+        self.total_alerts = 0
+        self.start_time = time.time()
+
 
         log_info("Detection Engine initialized.")
 
@@ -77,3 +84,38 @@ class DetectionEngine:
 
             log_info("Monitoring stopped by user.")
 
+
+def get_threat_level(self) -> str:
+    """Return the current threat level."""
+
+    if self.total_alerts == 0:
+        return "LOW"
+
+    elif self.total_alerts <= 3:
+        return "MEDIUM"
+
+    elif self.total_alerts <= 6:
+        return "HIGH"
+
+    return "CRITICAL"
+
+def get_uptime(self) -> str:
+    """Return application uptime."""
+
+    uptime = int(time.time() - self.start_time)
+
+    hours = uptime // 3600
+    minutes = (uptime % 3600) // 60
+    seconds = uptime % 60
+
+    return f"{hours:02}:{minutes:02}:{seconds:02}"
+
+def get_statistics(self) -> dict:
+    """Return IDS statistics."""
+
+    return {
+        "packets": self.total_packets,
+        "alerts": self.total_alerts,
+        "threat": self.get_threat_level(),
+        "uptime": self.get_uptime()
+    }
