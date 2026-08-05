@@ -1,0 +1,13 @@
+
+
+Naphtech IDS v2.0.0
+
+Requirements
+
+This project currently uses only Python's standard library.
+
+No external packages are required.
+
+Python Version
+
+Python>=3.10

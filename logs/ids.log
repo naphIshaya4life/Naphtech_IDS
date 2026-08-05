@@ -1,0 +1,149 @@
+2026-08-01 04:56:55 | INFO     | Naphtech IDS started.
+2026-08-01 04:56:55 | WARNING  | High traffic detected.
+2026-08-01 04:56:55 | ERROR    | Configuration file missing.
+2026-08-01 04:56:55 | CRITICAL | Possible brute-force attack detected.
+2026-08-01 05:06:20 | INFO     | Detection Engine initialized.
+2026-08-01 05:06:20 | INFO     | Monitoring started.
+2026-08-01 05:06:32 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-01 05:06:34 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-01 05:06:37 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-01 05:06:40 | INFO     | Monitoring stopped by user.
+2026-08-01 05:17:19 | INFO     | Detection Engine initialized.
+2026-08-01 05:17:19 | INFO     | Monitoring started.
+2026-08-01 05:17:31 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-01 05:17:32 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-01 05:17:39 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-01 05:17:42 | INFO     | Monitoring stopped by user.
+2026-08-01 05:23:11 | INFO     | Detection Engine initialized.
+2026-08-01 05:23:11 | INFO     | Monitoring started.
+2026-08-01 05:23:22 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-01 05:23:27 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-01 05:23:32 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-01 05:23:33 | INFO     | Monitoring stopped by user.
+2026-08-01 05:25:58 | INFO     | Detection Engine initialized.
+2026-08-01 05:25:58 | INFO     | Monitoring started.
+2026-08-01 05:26:06 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-01 05:26:10 | INFO     | Monitoring stopped by user.
+2026-08-01 05:28:32 | INFO     | Detection Engine initialized.
+2026-08-01 05:28:32 | INFO     | Monitoring started.
+2026-08-01 05:28:34 | INFO     | Monitoring stopped by user.
+2026-08-01 05:32:08 | INFO     | Detection Engine initialized.
+2026-08-01 05:32:08 | INFO     | Monitoring started.
+2026-08-01 05:32:23 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-01 05:32:26 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-01 05:32:28 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-01 05:32:29 | INFO     | Monitoring stopped by user.
+2026-08-01 05:39:51 | INFO     | Detection Engine initialized.
+2026-08-01 05:39:51 | INFO     | Monitoring started.
+2026-08-01 05:40:04 | INFO     | Monitoring stopped by user.
+2026-08-01 05:42:20 | INFO     | Detection Engine initialized.
+2026-08-01 06:01:39 | INFO     | Detection Engine initialized.
+2026-08-01 06:01:46 | INFO     | Monitoring started.
+2026-08-01 06:01:50 | INFO     | Monitoring stopped by user.
+2026-08-01 06:10:46 | INFO     | Detection Engine initialized.
+2026-08-01 06:10:50 | INFO     | Monitoring started.
+2026-08-01 06:10:54 | INFO     | Monitoring stopped by user.
+2026-08-02 13:08:43 | INFO     | Detection Engine initialized.
+2026-08-02 13:09:14 | INFO     | Monitoring started.
+2026-08-02 13:09:25 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-02 13:09:30 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-02 13:09:31 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-02 13:09:38 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-02 13:09:43 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-02 13:09:44 | INFO     | Monitoring stopped by user.
+2026-08-05 12:24:28 | INFO     | Detection Engine initialized.
+2026-08-05 12:24:34 | INFO     | Monitoring started.
+2026-08-05 12:24:45 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 12:24:50 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 12:24:59 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 12:25:01 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 12:25:07 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 12:25:08 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 12:25:13 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 12:25:14 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 12:25:22 | INFO     | Monitoring stopped by user.
+2026-08-05 23:23:07 | INFO     | Detection Engine initialized.
+2026-08-05 23:23:11 | INFO     | Monitoring started.
+2026-08-05 23:23:22 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:23:25 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:23:32 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:23:34 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:23:44 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:23:45 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:23:51 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:23:52 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:24:02 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:24:07 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:24:10 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:24:15 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:24:21 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:24:27 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:24:28 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:24:35 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:24:41 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:24:45 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:24:49 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:24:54 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:25:06 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:25:09 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:25:11 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:25:15 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:25:20 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:25:24 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:25:30 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:25:38 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:25:39 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:25:47 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:25:51 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:26:00 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:26:04 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:26:05 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:26:10 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:26:17 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:26:24 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:26:27 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:26:32 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:26:34 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:26:46 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:26:48 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:26:49 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:26:56 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:27:03 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:27:04 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:27:09 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:27:17 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:27:25 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:27:29 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:27:33 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:27:36 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:27:43 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:27:47 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:27:50 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:27:59 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:28:03 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:28:07 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:28:14 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:28:20 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:28:21 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:28:28 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:28:31 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:28:40 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:28:47 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:28:48 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:28:51 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:28:53 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:29:05 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:29:06 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:29:13 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:29:18 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:29:21 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:29:32 | CRITICAL | Suspicious activity detected from 192.168.1.5
+2026-08-05 23:29:33 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:29:35 | CRITICAL | Suspicious activity detected from 172.16.0.3
+2026-08-05 23:29:36 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:29:45 | CRITICAL | Suspicious activity detected from 192.168.1.2
+2026-08-05 23:29:53 | CRITICAL | Suspicious activity detected from 10.0.0.8
+2026-08-05 23:29:58 | INFO     | Monitoring stopped by user.
+2026-08-05 23:57:20 | INFO     | Detection Engine initialized.
+2026-08-05 23:57:23 | INFO     | Monitoring started.
+2026-08-05 23:57:27 | INFO     | Monitoring stopped by user.
